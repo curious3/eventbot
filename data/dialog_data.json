@@ -1,0 +1,169 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hi",
+        "intent": "greet"
+      },
+      {
+        "text": "hey",
+        "intent": "greet"
+      },
+      {
+        "text": "hello",
+        "intent": "greet"
+      },
+      {
+        "text": "Hi there",
+        "intent": "greet"
+      },
+      {
+        "text": "Hey, there",
+        "intent": "greet"
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye"
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye"
+      },
+      {
+        "text": "bye bye",
+        "intent": "goodbye"
+      },
+      {
+        "text": "bye-bye",
+        "intent": "goodbye"
+      },
+      {
+        "text": "thanks",
+        "intent": "thanks"
+      },
+      {
+        "text": "thx",
+        "intent": "thanks"
+      },
+      {
+        "text": "thank you",
+        "intent": "thanks"
+      },
+      {
+        "text": "thank u",
+        "intent": "thanks"
+      },
+      {
+        "text": "awesome",
+        "intent": "thanks"
+      },
+      {
+        "text": "alright",
+        "intent": "thanks"
+      },
+      {
+        "text": "Eagles concerts",
+        "intent": "concertResultsByArtist",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Eagles",
+            "entity": "artist"
+          }
+        ]
+      },
+      {
+        "text": "Cameo concerts",
+        "intent": "concertResultsByArtist",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Cameo",
+            "entity": "artist"
+          }
+        ]
+      },
+      {
+        "text": "show me concerts by Eagles",
+        "intent": "concertResultsByArtist",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Eagles",
+            "entity": "artist"
+          }
+        ]
+      },
+      {
+        "text": "show me concerts by Cameo",
+        "intent": "concertResultsByArtist",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "Cameo",
+            "entity": "artist"
+          }
+        ]
+      },
+      {
+        "text": "concerts Eagles",
+        "intent": "concertResultsByArtist",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "Eagles",
+            "entity": "artist"
+          }
+        ]
+      },
+      {
+        "text": "concerts Cameo",
+        "intent": "concertResultsByArtist",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "Cameo",
+            "entity": "artist"
+          }
+        ]
+      },
+      {
+        "text": "any Eagles concerts ?",
+        "intent": "concertResultsByArtist",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "Eagles",
+            "entity": "artist"
+          }
+        ]
+      },
+      {
+        "text": "any Cameo concerts ?",
+        "intent": "concertResultsByArtist",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "Cameo",
+            "entity": "artist"
+          }
+        ]
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "Eagles",
+        "synonyms": ["eagle", "Henley"]
+      }
+    ],
+    "intent_examples": []
+  }
+}

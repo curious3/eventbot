@@ -1,0 +1,46 @@
+slots:
+  artist:
+    type: text
+  matches:
+    type: unfeaturized
+
+entities:
+- artist
+
+intents:
+ - greet
+ - goodbye
+ - thanks
+ - concertResultsByArtist
+
+templates:
+  utter_greet:
+    - "hey there!"
+    - "hi"
+    - "Hello"
+  utter_goodbye:
+    - "goodbye"
+    - "Bye-bye"
+    - "bye"
+    - "Bye"
+  utter_default:
+    - "Sorry, can you please ask me that again?"
+    - "Sorry, I missed that. Can you please say that again?"
+  utter_ack_dosearch: 
+    - "ok let me see what I can find"
+  utter_ask_howcanhelp:
+    - "how can I help you?"
+  utter_welcome:
+    - "You are welcome"
+    - "Glad I could help"
+    - "Pleased that I could help"
+
+actions:
+- utter_greet
+- utter_goodbye
+- utter_default
+- utter_ack_dosearch
+- utter_ask_howcanhelp
+- utter_welcome
+- eventbot.ActionSearchConcerts
+- eventbot.ActionSuggest
